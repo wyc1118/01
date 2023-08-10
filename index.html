@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" /><title>個人履歷</title>
+    <style>
+      body{
+        font-family: 'Noto Serif TC', serif;
+      }
+    </style>
+</head>
+<body class="w-full h-auto bg-yellow-100">
+    <!-- <div class="h-16 px-16 text-blue-900 font-bold flex justify-between items-center">
+      <div>吳卓蓉</div>
+      <div>
+        <ul class="flex justify-center items-center">
+          <li class="px-4">Home</li>
+          <li class="px-4">About</li>
+          <li class="px-4">Skills</li>
+          <li class="px-4">Works</li>
+        </ul>
+      </div>
+    </div> -->
+    <div class="flex justify-between items-center">
+      <div class="ml-60 text-blue-950">
+        <div class="text-5xl font-bold pb-6">吳卓蓉</div>
+        <div>
+          <ul class="text-base">
+            <li class="my-2 flex items-center">
+              <span class="material-symbols-outlined px-2">
+              phone_iphone
+              </span>0976231776</li>
+            <li class="my-2 flex items-center">
+              <span class="material-symbols-outlined px-2">
+              mail
+              </span>a0978716066@gmail.com</li>
+            <li class="my-2 flex items-center">
+              <span class="material-symbols-outlined px-2">
+                location_on
+                </span>台灣,高雄市</li>
+          </ul>
+        </div>
+      </div>
+      <div class="my-16 mx-44 w-[300px] h-[300px]">
+        <img src="履歷頭貼.svg" alt="">
+      </div>
+    </div>
+    <div class="mx-40">
+      <h1 class="text-5xl font-bold text-yellow-300">About.</h1>
+      <p class="text-blue-950 text-base px-16 py-12">本人畢業於高雄實踐大學觀光管理學系，個性外向、健談，擅長聆聽，與人交談，在意細節和專注是我的優點，因之前的工作經歷都與服務性質相關，所以我很擅長與人溝通、處理問題。對於新的事物，我會自動自發地去學習，查詢相關的資訊。</p>
+    </div>
+    <div class="mx-40">
+      <h1 class="text-5xl font-bold text-yellow-300">Skills.</h1>
+      <ul class="text-blue-950 text-base px-16 py-12">
+        <li class="py-2 flex items-center">
+          <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 13 13" fill="none">
+          <circle cx="6.5" cy="6.5" r="6.5" fill="#03045E"/>
+          </svg>figma</li>
+        <li class="py-2 flex items-center">
+          <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 13 13" fill="none">
+          <circle cx="6.5" cy="6.5" r="6.5" fill="#03045E"/>
+          </svg>html</li>
+        <li class="py-2 flex items-center">
+          <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 13 13" fill="none">
+          <circle cx="6.5" cy="6.5" r="6.5" fill="#03045E"/>
+          </svg>css</li>
+        <li class="py-2 flex items-center">
+          <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 13 13" fill="none">
+          <circle cx="6.5" cy="6.5" r="6.5" fill="#03045E"/>
+          </svg>microsoft office(word、powerpoint、excel)</li>
+        <li class="py-2 flex items-center">
+          <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 13 13" fill="none">
+          <circle cx="6.5" cy="6.5" r="6.5" fill="#03045E"/>
+          </svg>N5日文檢定</li>
+      </ul>
+    </div>
+    <div class="mx-40">
+      <h1 class="text-5xl font-bold text-yellow-300">Works.</h1>
+      <ul class="text-blue-950 text-base px-16 py-12 flex flex-col">
+        <li class="py-2 flex flex-col">
+          <div class="font-bold flex items-center"><svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 13 13" fill="none">
+          <circle cx="6.5" cy="6.5" r="6.5" fill="#03045E"/>
+          </svg>
+          2020.8-2023.3</div>
+          <div class="px-4 py-2">信元藥師藥局-藥師助理 <br>工作內容 : 銷售產品以及協助藥師處理藥局相關業務，向顧客傳達正確的保健知識。
+          </div></li>
+        <li class="py-2 flex flex-col">
+          <div class="font-bold flex items-center"><svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 13 13" fill="none">
+          <circle cx="6.5" cy="6.5" r="6.5" fill="#03045E"/>
+          </svg>
+          2019.7-2020.2</div>
+          <div class="px-4 py-2">雪霸休閒農場-櫃台人員、訂房人員 <br>工作內容 : 負責接待客人和處理顧客相關問題，聯絡旅行社及顧客，協助訂房相關事宜，並且擔任總機作為與各部門溝通的橋樑。
+          </div></li>
+      </ul>
+    </div>
+</body>
+<script>
+    const { createApp, ref } = Vue
+ 
+    createApp({
+      setup() {
+        const message = ref('Hello vue!');
+
+        return {
+          message
+        }
+      }
+    }).mount('#app')
+</script>
+</html>
